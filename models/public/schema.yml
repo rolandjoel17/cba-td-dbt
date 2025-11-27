@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: test_joel
-    description: Dynamic table created via CBA Migration Assistant for test_joel
+  - name: test22
+    description: Dynamic table created via CBA Migration Assistant for test22
     config:
       materialized: dynamic_table
       target_lag: 1 hour
