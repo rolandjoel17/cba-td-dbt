@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: customer_summary_2
-    description: Dynamic table created via CBA Migration Assistant for CUSTOMER_SUMMARY_2
+  - name: test_joel
+    description: Dynamic table created via CBA Migration Assistant for test_joel
     config:
       materialized: dynamic_table
       target_lag: 1 hour
