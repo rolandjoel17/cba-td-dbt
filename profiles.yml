@@ -1,0 +1,9 @@
+USER_24_PUBLIC__22cba_td_dbt_22:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: DEMO_WH
+      database: CBA_DEMO
+      schema: PUBLIC
