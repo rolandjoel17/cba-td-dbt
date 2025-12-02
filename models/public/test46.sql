@@ -8,7 +8,7 @@
 }}
 
 -- Source: CBA Migration Assistant
--- Created: 2025-12-01 22:23:11
+-- Created: 2025-12-01 22:25:38
 -- Target: CBA_DEMO.PUBLIC.test46
 
 SELECT customer_id, COUNT(*) as total_count FROM CBA_DEMO.PUBLIC.CUSTOMER_DATA GROUP BY customer_id
