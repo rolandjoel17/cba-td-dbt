@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: test26
-    description: Dynamic table created via CBA Migration Assistant for test26
+  - name: test29
+    description: Dynamic table created via CBA Migration Assistant for test29
     config:
       materialized: dynamic_table
       target_lag: 1 hour
