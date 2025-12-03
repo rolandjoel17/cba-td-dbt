@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: joel_tables3
-    description: Dynamic table created via CBA Migration Assistant for joel_tables3
+  - name: joel_tables5
+    description: Dynamic table created via CBA Migration Assistant for joel_tables5
     config:
       materialized: dynamic_table
       target_lag: DOWNSTREAM
