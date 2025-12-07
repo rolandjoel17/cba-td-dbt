@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: customers_branch
+    description: Dynamic table created via CBA Migration Assistant for CUSTOMERS_BRANCH
+    config:
+      materialized: dynamic_table
+      target_lag: DOWNSTREAM
+      snowflake_warehouse: DEMO_WH
+    meta:
+      created_by: CBA_Migration_Assistant
+      created_date: '2025-12-07'
+      source: Teradata Migration
+      target_database: CBA_DEMO
+      target_schema: PUBLIC
