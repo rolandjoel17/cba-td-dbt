@@ -1,7 +1,7 @@
 version: 2
 models:
-  - name: customers_branch
-    description: Dynamic table created via CBA Migration Assistant for CUSTOMERS_BRANCH
+  - name: branch_data
+    description: Dynamic table created via CBA Migration Assistant for branch_data
     config:
       materialized: dynamic_table
       target_lag: DOWNSTREAM
