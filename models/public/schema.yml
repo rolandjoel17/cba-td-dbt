@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: branch_insights
+    description: Dynamic table created via CBA Migration Assistant for branch_insights
+    config:
+      materialized: dynamic_table
+      target_lag: DOWNSTREAM
+      snowflake_warehouse: DEMO_WH
+    meta:
+      created_by: CBA_Migration_Assistant
+      created_date: '2025-12-08'
+      source: Teradata Migration
+      target_database: CBA_DEMO
+      target_schema: PUBLIC
